@@ -1,0 +1,9 @@
+## meemo
+
+A fork of [lodash.memoize](https://www.npmjs.com/package/lodash.memoize) that avoids memory allocation churn and garbage collection
+
+By [Adam Renklint](http://adamrenklint.com), September 2015. Made for use in [Bap](http://bapjs.org) and [Dilla](http://github.com/adamrenklint/dilla).
+
+## License
+
+MIT
