@@ -135,7 +135,6 @@ function memoize(func, resolver) {
   var args, key, cache;
   var memoized = function() {
     args = arguments;
-    // key = Symbol.for(resolver ? resolver.apply(this, args) : args[0]);
     key = resolver ? resolver.apply(this, args) : args[0];
     cache = memoized.cache;
 
