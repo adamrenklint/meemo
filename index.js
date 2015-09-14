@@ -156,6 +156,6 @@ MapCache.prototype.has = mapHas;
 MapCache.prototype.set = mapSet;
 
 // Assign cache to `_.memoize`.
-memoize.Cache = MapCache;
+memoize.Cache = window.Map || MapCache;
 
 module.exports = memoize;

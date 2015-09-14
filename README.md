@@ -7,3 +7,10 @@ By [Adam Renklint](http://adamrenklint.com), September 2015. Made for use in [Ba
 ## License
 
 MIT
+
+## Changelog
+
+- **1.0.0**
+  - Initial release, move variable declaration outside of memoized function handler scope
+- **1.1.0**
+  - Use ```Map``` where available
