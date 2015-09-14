@@ -14,3 +14,5 @@ MIT
   - Initial release, move variable declaration outside of memoized function handler scope
 - **1.1.0**
   - Use ```Map``` where available
+- **1.1.1**
+  - Fix issue with ```window``` reference in node.js

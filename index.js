@@ -1,3 +1,5 @@
+var global = require('./lib/global');
+
 /** Used as the `TypeError` message for "Functions" methods. */
 
 /** Used as the `TypeError` message for "Functions" methods. */
@@ -156,6 +158,6 @@ MapCache.prototype.has = mapHas;
 MapCache.prototype.set = mapSet;
 
 // Assign cache to `_.memoize`.
-memoize.Cache = window.Map || MapCache;
+memoize.Cache = global.Map || MapCache;
 
 module.exports = memoize;
