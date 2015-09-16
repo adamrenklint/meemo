@@ -136,7 +136,10 @@ function memoize(func, resolver) {
   }
   var args, key, cache;
   var memoized = function() {
-    args = arguments;
+    args = new Array(arguments.length);
+    for (var i = 0, l = arguments.length; i < l; i++) {
+      args[i] = arguments[i];
+    }
     key = resolver ? resolver.apply(this, args) : args[0];
     cache = memoized.cache;
 

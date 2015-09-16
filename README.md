@@ -16,3 +16,5 @@ MIT
   - Use ```Map``` where available
 - **1.1.1**
   - Fix issue with ```window``` reference in node.js
+- **1.1.2**
+  - Fix deopt issue ```Bad value context for arguments value```
